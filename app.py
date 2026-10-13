@@ -3,7 +3,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # --- ඔයාගේ Gemini API Key එක මෙතනට ඇතුලත් කරන්න ---
-GOOGLE_API_KEY = st.secrets"AQ.Ab8RN6KH01a8vSjSBHpoEXwoh813N06e5NCuXJ3jHMA4GzW-jA"
+GEMINI_API_KEY = "AQ.Ab8RN6KH01a8vSjSBHpoEXwoh813N06e5NCuXJ3jHMA4GzW-jA"
 
 # Google AI Configure කිරීම
 genai.configure(api_key=GOOGLE_API_KEY)
